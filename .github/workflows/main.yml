@@ -26,8 +26,8 @@ jobs:
         #   load: true
       - name: Build and push
         uses: docker/build-push-action@v5
-        with:
-          context: .
-          push: true
-          target: prod
-          tags: ${{ secrets.DOCKER_USERNAME }}/${{ github.event.repository.name }}:latest
+        # with:
+        #   context: .
+        #   push: true
+        #   target: prod
+        #   tags: ${{ secrets.DOCKER_USERNAME }}/${{ github.event.repository.name }}:latest
