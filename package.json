@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "prettify": "prettier -l --write \"**/*.js\"",
+    "prettify": "prettier --write .",
     "test": "jest",
     "dev": "nodemon --inspect=0.0.0.0:9229 -L src/index.js"
   },
@@ -18,15 +18,8 @@
   "resolutions": {
     "ansi-regex": "5.0.1"
   },
-  "prettier": {
-    "trailingComma": "all",
-    "tabWidth": 4,
-    "useTabs": false,
-    "semi": true,
-    "singleQuote": true
-  },
   "devDependencies": {
-    "jest": "^29.6.2",
+    "jest": "^29.7.0",
     "nodemon": "^3.0.1",
     "prettier": "^2.7.1"
   }
